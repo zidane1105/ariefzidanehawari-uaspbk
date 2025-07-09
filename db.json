@@ -1,0 +1,51 @@
+{
+  "konser": [
+    {
+      "id": 1,
+      "judul": "Konser Coldplay",
+      "tanggal": "2025-08-01",
+      "harga": 500000,
+      "gambar": "https://faktapers.id/wp-content/uploads/2023/05/645e2a7c4356b-poster-coldplay_1265_711.jpg"
+    },
+    {
+      "id": 2,
+      "judul": "Konser Noah",
+      "tanggal": "2025-08-10",
+      "harga": 250000,
+      "gambar": "https://seremonia.id/wp-content/uploads/2023/06/341191081_245259121370828_8075749867120387929_n-1-e1686280669729.jpg"
+    },
+    {
+      "id": 3,
+      "judul": "Konser Dewa 19",
+      "tanggal": "2025-08-15",
+      "harga": 350000,
+      "gambar": "https://static.promediateknologi.id/crop/0x0:0x0/750x500/photo/p2/131/2023/11/15/Dewa-19-3233976437.jpg"
+    }
+  ],
+  "tiket": [
+    {
+      "id": "5e4d8a80-bf74-46ef-b282-6de609b7c756",
+      "konserId": 2,
+      "judul": "Konser Noah",
+      "tanggal": "2025-08-10",
+      "harga": 250000,
+      "waktuBeli": "2025-07-09T16:38:24.565Z"
+    },
+    {
+      "id": "8c573aa0-2b66-4cd5-98d7-36ffbf584544",
+      "konserId": 3,
+      "judul": "Konser Dewa 19",
+      "tanggal": "2025-08-15",
+      "harga": 350000,
+      "waktuBeli": "2025-07-09T16:54:09.883Z"
+    },
+    {
+      "id": "baec791b-9d5b-4645-b64f-bfe0eb6c89c7",
+      "konserId": 1,
+      "judul": "Konser Coldplay",
+      "tanggal": "2025-08-01",
+      "harga": 500000,
+      "waktuBeli": "2025-07-09T17:11:57.035Z"
+    }
+  ]
+}
