@@ -10,6 +10,7 @@ describe('KonserList.vue', () => {
       }
     })
 
-    expect(wrapper.text()).toContain('Daftar Konser')
+  expect(wrapper.text()).toContain('Pilih Konser Favoritmu')
+
   })
 })

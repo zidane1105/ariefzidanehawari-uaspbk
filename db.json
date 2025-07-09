@@ -46,6 +46,14 @@
       "tanggal": "2025-08-01",
       "harga": 500000,
       "waktuBeli": "2025-07-09T17:11:57.035Z"
+    },
+    {
+      "id": "19ce0b31-4e2d-4c19-be6e-c3d19775babd",
+      "konserId": 2,
+      "judul": "Konser Noah",
+      "tanggal": "2025-08-10",
+      "harga": 250000,
+      "waktuBeli": "2025-07-09T18:15:32.481Z"
     }
   ]
 }
