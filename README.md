@@ -4,13 +4,13 @@ UAS PBK - Vue 3 + Pinia + TailwindCSS + JSON Server
 
 ## Fitur Aplikasi
 
-- 🔐 Login & Logout
-- 🎫 Daftar konser lengkap
-- 🛒 Pemesanan tiket konser
-- 📄 Halaman "Tiket Saya"
-- ❌ Hapus tiket yang dibeli
-- 🧪 Unit Test dengan Vitest
-- 🎨 UI menggunakan Tailwind CSS
+-  Login & Logout
+-  Daftar konser lengkap
+-  Pemesanan tiket konser
+-  Halaman "Tiket Saya"
+-  Hapus tiket yang dibeli
+-  Unit Test dengan Vitest
+-  UI menggunakan Tailwind CSS
 
 ## Cara Menjalankan
 
