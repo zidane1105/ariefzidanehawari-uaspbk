@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center px-4">
+  <div class="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-50">
     <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm">
-      <h2 class="text-2xl font-bold text-center text-indigo-600 mb-6">🔐 Login Aplikasi</h2>
+      <h2 class="text-2xl font-bold text-center text-indigo-600 mb-6">🔐 Login</h2>
 
       <form @submit.prevent="login">
         <div class="mb-4">
