@@ -38,7 +38,7 @@ const loading = ref(true)
 
 onMounted(async () => {
   try {
-    const res = await axios.get('http://localhost:3000/konser')
+    const res = await axios.get('https://686f23d791e85fac429fe12e.mockapi.io/konser')
     konser.value = res.data
   } catch (err) {
     console.error('Gagal ambil data konser:', err)
