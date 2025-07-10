@@ -5,23 +5,23 @@
       "judul": "Konser Coldplay",
       "tanggal": "2025-08-01",
       "harga": 500000,
-      "gambar": "https://faktapers.id/wp-content/uploads/2023/05/645e2a7c4356b-poster-coldplay_1265_711.jpg"
+      "gambar": "/images/coldplay.jpg"
     },
     {
       "id": 2,
       "judul": "Konser Noah",
       "tanggal": "2025-08-10",
       "harga": 250000,
-      "gambar": "https://seremonia.id/wp-content/uploads/2023/06/341191081_245259121370828_8075749867120387929_n-1-e1686280669729.jpg"
+      "gambar": "/images/noah.jpg"
     },
     {
       "id": 3,
       "judul": "Konser Dewa 19",
       "tanggal": "2025-08-15",
       "harga": 350000,
-      "gambar": "https://static.promediateknologi.id/crop/0x0:0x0/750x500/photo/p2/131/2023/11/15/Dewa-19-3233976437.jpg"
+      "gambar": "/images/dewa.jpg"
     }
-  ],
+    ],
   "tiket": [
     {
       "id": "5e4d8a80-bf74-46ef-b282-6de609b7c756",
