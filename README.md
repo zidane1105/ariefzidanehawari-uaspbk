@@ -1,20 +1,27 @@
-# Sistem Tiket Konser 🎫
+# 🎫 Sistem Tiket Konser – UAS PBK
 
-UAS PBK - Vue 3 + Pinia + TailwindCSS + JSON Server
+Aplikasi pemesanan tiket konser berbasis web menggunakan **Vue 3**, **Pinia**, **TailwindCSS**, dan **MockAPI** sebagai data online.
+Untuk Login ke website nya yaitu:
+Username : admin
+Password : 123
 
-## Fitur Aplikasi
+##  Fitur Utama
 
--  Login & Logout
--  Daftar konser lengkap
--  Pemesanan tiket konser
--  Halaman "Tiket Saya"
--  Hapus tiket yang dibeli
--  Unit Test dengan Vitest
--  UI menggunakan Tailwind CSS
+-  Login & Logout (username: `admin`, password: `123`)
+-  Lihat daftar konser (tanpa gambar agar ringan dan responsif)
+-  Pesan tiket konser secara online
+-  Lihat tiket yang sudah dipesan
+-  Hapus tiket yang telah dibeli
+-  Tampilan responsive, bisa dibuka dari HP maupun laptop
+-  Data konser & tiket menggunakan **MockAPI** (online-ready)
 
-## Cara Menjalankan
+##  Demo Aplikasi
+
+ [Lihat di Vercel](https://ariefzidanehawari-uaspbk.vercel.app)
+
+##  Testing
+
+Aplikasi ini dilengkapi dengan unit test:
 
 ```bash
-npm install        # install dependency
-npm run dev        # jalankan server lokal (http://localhost:5173)
-json-server --watch db.json --port 3000  # untuk fake API
+npm run test:unit
