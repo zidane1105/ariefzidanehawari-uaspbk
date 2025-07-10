@@ -1,37 +1,32 @@
 <template>
-<div class="max-w-6xl mx-auto px-4 py-8 bg-gray-100 min-h-screen">
-  <h1 class="text-4xl font-bold text-center text-indigo-600 mb-10">
-    🎤 Pilih Konser Favoritmu
-  </h1>
+  <div class="max-w-7xl mx-auto px-4 py-8 bg-gray-100 min-h-screen">
+    <h1 class="text-3xl font-bold text-center text-indigo-700 mb-10">
+       Pilih Konser Favoritmu
+    </h1>
 
-  <div v-if="loading" class="text-center text-gray-500">Memuat konser...</div>
+    <div v-if="loading" class="text-center text-gray-500">Memuat konser...</div>
 
-  <div v-else class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-    <div
-      v-for="k in konser"
-      :key="k.id"
-      class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200"
-    >
-      <img
-        :src="k.gambar"
-        :alt="k.judul"
-        class="w-full h-48 object-cover sm:h-52 md:h-56"
-      />
-      <div class="p-5">
-        <h2 class="text-xl font-bold text-gray-800 mb-2">{{ k.judul }}</h2>
-        <p class="text-gray-600">📅 {{ k.tanggal }}</p>
-        <p class="text-green-600 font-semibold">💸 Rp{{ k.harga.toLocaleString() }}</p>
+    <div v-else class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      <div
+        v-for="k in konser"
+        :key="k.id"
+        class="bg-white rounded-lg border border-gray-200 shadow-sm p-4 hover:shadow-md transition-all duration-200 flex flex-col items-center text-center"
+      >
+        <div class="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center text-3xl mb-3">
+          
+        </div>
+        <h2 class="text-sm font-semibold text-gray-800 mb-1">{{ k.judul }}</h2>
+        <p class="text-xs text-gray-500 mb-1">📅 {{ k.tanggal }}</p>
+        <p class="text-xs text-green-600 font-semibold mb-3">Rp{{ k.harga.toLocaleString() }}</p>
         <button
           @click="pesanTiket(k)"
-          class="mt-6 w-full bg-gradient-to-r from-pink-500 to-yellow-500 text-white py-2.5 rounded-xl font-semibold tracking-wide shadow-md hover:shadow-xl hover:brightness-110 hover:scale-105 transition-all duration-300"
+          class="text-xs bg-indigo-500 hover:bg-indigo-600 text-white px-3 py-1 rounded-full transition-all"
         >
-          🎫 Pesan Tiket
+          Pesan
         </button>
       </div>
     </div>
   </div>
-</div>
-
 </template>
 
 <script setup>
@@ -52,11 +47,10 @@ onMounted(async () => {
   }
 })
 
-// Fungsi pesan tiket
 const pesanTiket = async (konser) => {
   try {
     const tiketBaru = {
-      id: crypto.randomUUID(), // Biar unik
+      id: crypto.randomUUID(),
       konserId: konser.id,
       judul: konser.judul,
       tanggal: konser.tanggal,

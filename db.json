@@ -2,58 +2,65 @@
   "konser": [
     {
       "id": 1,
-      "judul": "Konser Coldplay",
+      "judul": "Konser Hindia",
       "tanggal": "2025-08-01",
-      "harga": 500000,
-      "gambar": "/images/coldplay.jpg"
+      "harga": 300000
     },
     {
       "id": 2,
-      "judul": "Konser Noah",
+      "judul": "Konser Pamungkas",
       "tanggal": "2025-08-10",
-      "harga": 250000,
-      "gambar": "/images/noah.jpg"
+      "harga": 350000
     },
     {
       "id": 3,
-      "judul": "Konser Dewa 19",
+      "judul": "Konser Sheila On 7",
       "tanggal": "2025-08-15",
-      "harga": 350000,
-      "gambar": "/images/dewa.jpg"
+      "harga": 400000
+    },
+    {
+      "id": 4,
+      "judul": "Konser Coldplay",
+      "tanggal": "2025-09-01",
+      "harga": 1000000
+    },
+    {
+      "id": 5,
+      "judul": "Konser Noah",
+      "tanggal": "2025-09-10",
+      "harga": 250000
+    },
+    {
+      "id": 6,
+      "judul": "Konser Dewa 19",
+      "tanggal": "2025-09-15",
+      "harga": 350000
     }
-    ],
+  ],
   "tiket": [
     {
-      "id": "5e4d8a80-bf74-46ef-b282-6de609b7c756",
-      "konserId": 2,
-      "judul": "Konser Noah",
-      "tanggal": "2025-08-10",
-      "harga": 250000,
-      "waktuBeli": "2025-07-09T16:38:24.565Z"
-    },
-    {
-      "id": "8c573aa0-2b66-4cd5-98d7-36ffbf584544",
-      "konserId": 3,
-      "judul": "Konser Dewa 19",
-      "tanggal": "2025-08-15",
-      "harga": 350000,
-      "waktuBeli": "2025-07-09T16:54:09.883Z"
-    },
-    {
       "id": "baec791b-9d5b-4645-b64f-bfe0eb6c89c7",
-      "konserId": 1,
+      "konserId": 4,
       "judul": "Konser Coldplay",
-      "tanggal": "2025-08-01",
+      "tanggal": "2025-09-01",
       "harga": 500000,
       "waktuBeli": "2025-07-09T17:11:57.035Z"
     },
     {
       "id": "19ce0b31-4e2d-4c19-be6e-c3d19775babd",
-      "konserId": 2,
+      "konserId": 5,
       "judul": "Konser Noah",
-      "tanggal": "2025-08-10",
+      "tanggal": "2025-09-10",
       "harga": 250000,
       "waktuBeli": "2025-07-09T18:15:32.481Z"
+    },
+    {
+      "id": "c3716cda-f9eb-48c0-a8a8-3c91975c2746",
+      "konserId": 1,
+      "judul": "Konser Hindia",
+      "tanggal": "2025-08-01",
+      "harga": 300000,
+      "waktuBeli": "2025-07-10T02:00:13.585Z"
     }
   ]
 }
