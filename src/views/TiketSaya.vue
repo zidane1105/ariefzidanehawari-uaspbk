@@ -41,7 +41,7 @@ const loading = ref(true)
 
 onMounted(async () => {
   try {
-    const res = await axios.get('http://localhost:3000/tiket')
+    const res = await axios.get('https://686f23d791e85fac429fe12e.mockapi.io/tiket')
     tiketStore.daftarTiket = res.data
   } catch (err) {
     console.error('Gagal ambil tiket:', err)
@@ -52,7 +52,7 @@ onMounted(async () => {
 
 const hapusTiket = async (id) => {
   try {
-    await axios.delete(`http://localhost:3000/tiket/${id}`)
+    await axios.delete(`https://686f23d791e85fac429fe12e.mockapi.io/tiket/${id}`)
     tiketStore.daftarTiket = tiketStore.daftarTiket.filter(t => t.id !== id)
     alert('Tiket berhasil dihapus!')
   } catch (error) {
