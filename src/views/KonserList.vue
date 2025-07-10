@@ -58,7 +58,7 @@ const pesanTiket = async (konser) => {
       waktuBeli: new Date().toISOString()
     }
 
-    await axios.post('http://localhost:3000/tiket', tiketBaru)
+    await axios.post('https://686f23d791e85fac429fe12e.mockapi.io/tiket', tiketBaru)
     alert('Tiket berhasil dipesan!')
   } catch (err) {
     console.error('Gagal pesan tiket:', err)
@@ -66,3 +66,4 @@ const pesanTiket = async (konser) => {
   }
 }
 </script>
+
